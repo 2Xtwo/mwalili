@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-900/60 z-10" />
-        <div className="relative h-[80vh] bg-[url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3')] bg-cover bg-center bg-fixed">
+        <div className="relative h-[80vh] bg-[url('/assets/images/faith.jpg')] bg-cover bg-center bg-fixed">
           <div className="absolute inset-0 z-20 flex items-center justify-center px-4">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
